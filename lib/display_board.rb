@@ -8,9 +8,9 @@ def display_board(board)
   pipes = "|"
   rows = "-----------"
 
-  puts " #{board[0]} #{pipes} #{board[1]} #{pipes} #{board[2]}  "
+  puts " #{board[0]} #{pipes} #{board[1]} #{pipes} #{board[2]} "
   puts "#{rows}"
-  puts " #{board[3]} #{pipes} #{board[4]} #{pipes} #{board[5]}  "
+  puts " #{board[3]} #{pipes} #{board[4]} #{pipes} #{board[5]}"
   puts "#{rows}"
-  puts " #{board[6]} #{pipes} #{board[7]} #{pipes} #{board[8]}  "
+  puts " #{board[6]} #{pipes} #{board[7]} #{pipes} #{board[8]}"
 end
