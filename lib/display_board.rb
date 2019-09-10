@@ -5,12 +5,12 @@
 
 def display_board(board) 
   
-  columns = "|"
+  pipes = "|"
   rows = "-----------"
 
-  puts " #{board[0]}  #{columns} #{board[1]}  #{columns} #{board[2]}  "
+  puts " #{board[0]}  #{pipes} #{board[1]}  #{pipes} #{board[2]}  "
   puts "#{rows}"
-  puts " #{board[3]}  #{columns} #{board[4]}  #{columns} #{board[5]}  "
+  puts " #{board[3]}  #{pipes} #{board[4]}  #{pipes} #{board[5]}  "
   puts "#{rows}"
-  puts " #{board[6]}  #{columns} #{board[7]}  #{columns} #{board[8]}  "
+  puts " #{board[6]}  #{pipes} #{board[7]}  #{pipes} #{board[8]}  "
 end
